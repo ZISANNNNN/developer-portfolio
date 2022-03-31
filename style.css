@@ -12,12 +12,20 @@ h1 {
 
 section {
     display: flex;
-}
 
-.link-button {
-    text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
-    color: aliceblue;
-    font-weight: 700;
-    padding: 10px 30px;
-}
+
+    .link-button {
+        text-decoration: none;
+        background-image: linear-gradient(orange, tomato);
+        color: aliceblue;
+        font-weight: 700;
+        padding: 10px 30px;
+    }
+
+    .half-width {
+        width: 50%;
+    }
+
+    .half-width img {
+        width: 20%;
+    }
