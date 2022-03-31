@@ -1,7 +1,23 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-h1{font-size: 50px;}
-.green{
+
+h1 {
+    font-size: 50px;
+}
+
+.green {
     color: green;
+}
+
+section {
+    display: flex;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: aliceblue;
+    font-weight: 700;
+    padding: 10px 30px;
 }
