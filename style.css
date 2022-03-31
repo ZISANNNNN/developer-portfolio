@@ -14,6 +14,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 
@@ -21,8 +22,10 @@ section {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: aliceblue;
-    font-weight: 700;
+    font-weight: 500px;
     padding: 10px 30px;
+
+
 }
 
 .half-width {
@@ -36,4 +39,21 @@ section {
 .top-banner {
     background-image: url(freepik/download.png);
     background-repeat: no-repeat;
+}
+
+.img img {
+    width: 200%;
+}
+
+.link-button a {
+    margin-top: 40px;
+    margin: 10px 20px;
+}
+
+.link-but {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: aliceblue;
+    font-weight: 400px;
+    padding: 1%;
 }
