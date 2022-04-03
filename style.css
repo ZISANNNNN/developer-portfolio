@@ -8,11 +8,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .green {
     color: green;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -30,6 +34,7 @@ section {
 
 .half-width {
     width: 50%;
+
 }
 
 .half-width img {
@@ -56,4 +61,42 @@ section {
     color: aliceblue;
     font-weight: 400px;
     padding: 1%;
+}
+
+.experience-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+
+
+}
+
+.experience-area {
+    background-image: url(freepik/u.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-left: 10px;
+}
+
+#web-developer-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, cyan);
+    border-image-slice: 1;
+
+}
+
+
+
+#full-stak-exp {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
 }
